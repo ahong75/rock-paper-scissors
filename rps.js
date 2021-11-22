@@ -33,10 +33,6 @@ function playRPS(playerMove, computerSelection) {
     return 0
 }
 
-const playerSelection = "roCk";
-const computerSelection = computerPlay();
-console.log(playRPS(playerSelection, computerSelection));
-
 function game() {
     let playerScore = 0;
     let computerScore = 0;
